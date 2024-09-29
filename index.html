@@ -37,233 +37,235 @@
         }
     </script>
     <style>
-      @keyframes jump {
+        @keyframes jump {
 
-    0%,
-    100% {
-        transform: translateY(0);
-    }
+            0%,
+            100% {
+                transform: translateY(0);
+            }
 
-    50% {
-        transform: translateY(-40px);
-    }
-}
+            50% {
+                transform: translateY(-40px);
+            }
+        }
 
-.jump-effect {
-    display: inline-block;
-    animation: jump 2s ease infinite;
-}
+        .jump-effect {
+            display: inline-block;
+            animation: jump 2s ease infinite;
+        }
 
-.roadmap {
-    display: none;
-}
+        .roadmap {
+            display: none;
+        }
 
-.dot::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background: white;
-    border-radius: 50%;
-    left: -18px;
-    top: 10px;
-}
+        .dot::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: white;
+            border-radius: 50%;
+            left: -18px;
+            top: 10px;
+        }
 
-@media(max-width:767.99px) {
-    .common-img {
-        display: none;
-    }
+        @media(max-width:767.99px) {
+            .common-img {
+                display: none;
+            }
 
-    .roadmap {
-        display: block;
-    }
+            .roadmap {
+                display: block;
+            }
 
-    .common-roadmap {
-        left: 7% !important;
-    }
+            .common-roadmap {
+                left: 7% !important;
+            }
 
-    .common-roadmap-text {
-        left: 35% !important;
-    }
+            .common-roadmap-text {
+                left: 35% !important;
+            }
 
-    .roadmap-number {
-        top: 4% !important;
-    }
+            .roadmap-number {
+                top: 4% !important;
+            }
 
-    .roadmap-text {
-        top: 6% !important;
-    }
+            .roadmap-text {
+                top: 6% !important;
+            }
 
-    .roadmap-green-number {
-        top: 14% !important;
-    }
+            .roadmap-green-number {
+                top: 14% !important;
+            }
 
-    .roadmap-second-text {
-        top: 16% !important;
-    }
+            .roadmap-second-text {
+                top: 16% !important;
+            }
 
-    .roadmap-orange-number {
-        top: 24% !important;
-    }
+            .roadmap-orange-number {
+                top: 24% !important;
+            }
 
-    .roadmap-third-text {
-        top: 26% !important;
-    }
+            .roadmap-third-text {
+                top: 26% !important;
+            }
 
-    .roadmap-sky-blue-number {
-        top: 34% !important;
-    }
+            .roadmap-sky-blue-number {
+                top: 34% !important;
+            }
 
-    .roadmap-fourth-text {
-        top: 36% !important;
-    }
-}
+            .roadmap-fourth-text {
+                top: 36% !important;
+            }
+        }
 
-@media(max-width:575.99px) {
-    .roadmap-number {
-        top: 5% !important;
-    }
+        @media(max-width:575.99px) {
+            .roadmap-number {
+                top: 5% !important;
+            }
 
-    .roadmap-green-number {
-        top: 15% !important;
-    }
+            .roadmap-green-number {
+                top: 15% !important;
+            }
 
-    .roadmap-orange-number {
-        top: 25% !important;
-    }
+            .roadmap-orange-number {
+                top: 25% !important;
+            }
 
-    .roadmap-sky-blue-number {
-        top: 35% !important;
-    }
-}
-@media(max-width:475.98px) {
-    .common-roadmap {
-        left: 3% !important;
-    }
+            .roadmap-sky-blue-number {
+                top: 35% !important;
+            }
+        }
 
-}
-@media(max-width:375.98px) {
-    .parent_box {
-        left: -7%;
-    }
+        @media(max-width:475.98px) {
+            .common-roadmap {
+                left: 3% !important;
+            }
 
-    .yellow_box {
-        width: 80px;
-        left: -33% !important;
-        bottom: -22% !important;
-    }
+        }
 
-    .blue_box {
-        width: 90px;
-        bottom: -80% !important;
-        left: -13% !important;
-    }
+        @media(max-width:375.98px) {
+            .parent_box {
+                left: -7%;
+            }
 
-    .orange_box {
-        width: 95px;
-        bottom: -95% !important;
-        left: 38% !important;
-    }
+            .yellow_box {
+                width: 80px;
+                left: -33% !important;
+                bottom: -22% !important;
+            }
 
-    .pink_box {
-        width: 90px;
-        bottom: -80% !important;
-        right: -45% !important;
-    }
+            .blue_box {
+                width: 90px;
+                bottom: -80% !important;
+                left: -13% !important;
+            }
 
-    .green_box {
-        width: 80px !important;
-        top: 61% !important;
-        right: -63% !important;
-    }
+            .orange_box {
+                width: 95px;
+                bottom: -95% !important;
+                left: 38% !important;
+            }
 
-    .yellow_dot {
-        left: 22%;
-    }
+            .pink_box {
+                width: 90px;
+                bottom: -80% !important;
+                right: -45% !important;
+            }
 
-    .sky_blue_dot {
-        left: 22%;
-    }
+            .green_box {
+                width: 80px !important;
+                top: 61% !important;
+                right: -63% !important;
+            }
 
-    .orange_dot {
-        left: 22%;
-    }
+            .yellow_dot {
+                left: 22%;
+            }
 
-    .pink_dot {
-        left: 22%;
-    }
+            .sky_blue_dot {
+                left: 22%;
+            }
 
-    .light_green_dot {
-        left: 22%;
-    }
+            .orange_dot {
+                left: 22%;
+            }
 
-    .sky_blue_text {
-        right: 38% !important;
-    }
+            .pink_dot {
+                left: 22%;
+            }
 
-    .orange_text {
-        right: 50% !important;
-    }
+            .light_green_dot {
+                left: 22%;
+            }
 
-    .pink_text {
-        right: 30% !important;
-    }
+            .sky_blue_text {
+                right: 38% !important;
+            }
 
-    .light_green_text {
-        right: 20% !important;
-    }
+            .orange_text {
+                right: 50% !important;
+            }
 
-    .tree_img {
-        left: 3% !important;
-    }
+            .pink_text {
+                right: 30% !important;
+            }
 
-    .second_img {
-        left: 72% !important;
-        bottom: 5% !important;
-    }
+            .light_green_text {
+                right: 20% !important;
+            }
 
-    .common-roadmap {
-        left: 5% !important;
-    }
+            .tree_img {
+                left: 3% !important;
+            }
 
-    .roadmap-number {
-        top: 5% !important;
-    }
+            .second_img {
+                left: 72% !important;
+                bottom: 5% !important;
+            }
 
-    .roadmap-green-number {
-        top: 15% !important;
-    }
+            .common-roadmap {
+                left: 5% !important;
+            }
 
-    .roadmap-orange-number {
-        top: 25.5% !important;
-    }
+            .roadmap-number {
+                top: 5% !important;
+            }
 
-    .roadmap-sky-blue-number {
-        top: 35.5% !important;
-    }
-}
+            .roadmap-green-number {
+                top: 15% !important;
+            }
+
+            .roadmap-orange-number {
+                top: 25.5% !important;
+            }
+
+            .roadmap-sky-blue-number {
+                top: 35.5% !important;
+            }
+        }
     </style>
 </head>
 
 <body>
     <section class="bg_dark_green relative min-h-[1300px]">
-        <img src="./assets/images/bg_layer.png" alt="bg_layer" class="w-full">
+        <img src="./assets/images/bg_layer.webp" alt="bg_layer" class="w-full">
         <div class=" w-full justify-center flex items-center flex-col">
             <div class="absolute right-0 top-[19%] hidden xl:block ">
-                <img src="./assets/images/layer_1.png" alt="layer_1">
+                <img src="./assets/images/layer_1.webp" alt="layer_1">
             </div>
             <h2 class="fs_2lg text-center font-normal leading-tight font_Chewy text_white mb-20">Tokenomics</h2>
             <div class="relative flex items-center flex-col sm:left-0 left-[-6%] parent_box">
-                <img src="./assets/images/dino_img.png" alt="dino_img"
+                <img src="./assets/images/dino_img.webp" alt="dino_img"
                     class="jump-effect lg:max-w-[133px] pointer-events-none absolute bottom-[1%] sm:left-[30%] left-[37%] max-w-[100px]">
                 <div class="h-32 md:w-64 w-44 mx-auto ">
                     <img class="w-full lg:max-w-[252px] absolute lg:bottom-[-50%] lg:left-[3%] max-w-[190px] sm:left-[13%] sm:bottom-[-29%] bottom-[-29%] left-[14%]"
-                        src="./assets/images/circle.png" alt="half_circle">
+                        src="./assets/images/circle.webp" alt="half_circle">
                 </div>
                 <div>
-                    <img src="./assets/images/yellow_box.png" alt="yellow_box"
+                    <img src="./assets/images/yellow_box.webp" alt="yellow_box"
                         class="absolute xl:max-w-[148px] xl:left-[-58%] xl:bottom-[-54%] lg:max-w-[118px] lg:left-[-44%] lg:bottom-[-40%] max-w-[100px] md:left-[-27%] md:bottom-[-30%] left-[-46%] bottom-[-33%] yellow_box pointer-events-none">
-                    <img src="./assets/images/line1.png" alt="line1"
+                    <img src="./assets/images/line1.webp" alt="line1"
                         class="absolute xl:left-[-72%] xl:bottom-[-50%] lg:left-[-56%] lg:bottom-[-40%] hidden md:block md:left-[-37%] md:bottom-[-38%]">
                     <p
                         class="text_yellow absolute xl:left-[-152%] xl:bottom-[-9%] lg:left-[-115%] lg:bottom-[4%] md:left-[-86%] md:bottom-[6%] font_Balsamiq fs_lg font-normal hidden md:block">
@@ -273,9 +275,9 @@
                         Supply</p>
                 </div>
                 <div>
-                    <img src="./assets/images/blue_box.png" alt="blue_box"
+                    <img src="./assets/images/blue_box.webp" alt="blue_box"
                         class="absolute xl:left-[-37%] xl:bottom-[-149%] xl:max-w-[170px] lg:max-w-[130px] lg:left-[-24%] lg:bottom-[-119%] md:left-[-11%] max-w-[113px] md:bottom-[-93%] left-[-23%] bottom-[-94%] blue_box pointer-events-none">
-                    <img src="./assets/images/line2.png" alt="line2"
+                    <img src="./assets/images/line2.webp" alt="line2"
                         class="absolute xl:left-[-29%] xl:bottom-[-197%] lg:left-[-19%] lg:bottom-[-180%] md:left-[-6%] md:bottom-[-157%] hidden md:block">
                     <p
                         class="text_sky_blue absolute xl:left-[-104%] xl:bottom-[-143%] lg:left-[-76%] lg:bottom-[-124%] md:left-[-53%] md:bottom-[-102%] font_Balsamiq font-normal fs_lg hidden md:block">
@@ -291,18 +293,18 @@
                     </p>
                 </div>
                 <div>
-                    <img src="./assets/images/orange_box.png" alt="orange_box"
+                    <img src="./assets/images/orange_box.webp" alt="orange_box"
                         class="absolute xl:left-[21%] xl:bottom-[-169%] xl:max-w-[176px] lg:max-w-[141px] lg:left-[24%] lg:bottom-[-143%] md:left-[28%] max-w-[118px] md:bottom-[-108%] left-[33%] bottom-[-106%] orange_box pointer-events-none">
-                    <img src="./assets/images/line3.png" alt="line3"
+                    <img src="./assets/images/line3.webp" alt="line3"
                         class="absolute xl:left-[55%] xl:bottom-[-211%] lg:left-[50%] lg:bottom-[-186%] md:left-[51%] md:bottom-[-148%] hidden md:block">
                     <p
                         class="absolute xl:left-[38%] xl:bottom-[-247%] lg:left-[38%] lg:bottom-[-215%] md:left-[39%] md:bottom-[-174%] font_Balsamiq text_orange font-normal fs_lg hidden md:block">
                         No Tax</p>
                 </div>
                 <div>
-                    <img src="./assets/images/pink_box.png" alt="pink_box"
+                    <img src="./assets/images/pink_box.webp" alt="pink_box"
                         class="absolute xl:right-[-46%] xl:max-w-[170px] xl:bottom-[-148%] lg:max-w-[130px] lg:right-[-29%] lg:top-[120%]  max-w-[112px] md:bottom-[-94%] md:right-[-14%] right-[-53%] bottom-[-91%] pink_box pointer-events-none">
-                    <img src="./assets/images/line4.png" alt=""
+                    <img src="./assets/images/line4.webp" alt=""
                         class="absolute xl:right-[-39%] xl:bottom-[-203%] lg:right-[-28%] lg:bottom-[-182%] md:right-[-12%] md:bottom-[-156%] hidden md:block">
                     <p
                         class="text_pink absolute xl:right-[-142%] xl:bottom-[-195%] lg:right-[-106%] lg:bottom-[-171%] md:right-[-76%] md:bottom-[-146%] font_Balsamiq font-normal fs_lg hidden md:block">
@@ -310,9 +312,9 @@
                         Function</p>
                 </div>
                 <div>
-                    <img src="./assets/images/green_box.png" alt="green_box"
+                    <img src="./assets/images/green_box.webp" alt="green_box"
                         class="absolute xl:max-w-[148px] xl:right-[-67%] xl:top-[44%] lg:right-[-49%] lg:top-[57%] lg:max-w-[118px] md:right-[-29%] md:top-[53%] max-w-[100px] right-[-74%] top-[56%] green_box pointer-events-none">
-                    <img src="./assets/images/line5.png" alt="line5"
+                    <img src="./assets/images/line5.webp" alt="line5"
                         class="absolute xl:right-[-80%] lg:right-[-61%] bottom-[-42%] md:right-[-39%] md:top-[64%] hidden md:block">
                     <p
                         class="text_light_green absolute right-[-160%] lg:right-[-121%] lg:bottom-[-32%] xl:right-[-156%] xl:bottom-[-39%] md:right-[-88%] md:top-[66%] font_Balsamiq font-normal fs_lg hidden md:block ">
@@ -369,31 +371,31 @@
                         Liquidity lock for 1 year</p>
                 </div>
             </div>
-            <img src="./assets/images/bottom_layer.png" alt="bottom_layer"
+            <img src="./assets/images/bottom_layer.webp" alt="bottom_layer"
                 class="w-full absolute bottom-0 pointer-events-none">
-            <img src="./assets/images/layer2.png" alt="layer2"
+            <img src="./assets/images/layer2.webp" alt="layer2"
                 class="absolute bottom-[-8%] left-[-16%] hidden xl:block pointer-events-none">
-            <img src="./assets/images/dino_img2.png" alt="dino_img"
+            <img src="./assets/images/dino_img2.webp" alt="dino_img"
                 class="absolute bottom-[4%] left-[0] z-10 dino-runner hidden lg:block pointer-events-none  xl:bottom-[4%]  lg:bottom-[2%]">
-            <img src="./assets/images/tree_img.png" alt="tree_img"
+            <img src="./assets/images/tree_img.webp" alt="tree_img"
                 class="absolute  left-[-5%] hidden lg:block max-lg:max-w-[300px] pointer-events-none xl:bottom-[5%] lg:bottom-[4%]">
-            <img src="./assets/images/grass_img.png" alt="grass_img"
+            <img src="./assets/images/grass_img.webp" alt="grass_img"
                 class="absolute bottom-[5%] left-[17%] hidden lg:block pointer-events-none lg:bottom-[2%] lg:left-[26%] xl:bottom-[5%] xl:left-[17%]">
-            <img src="./assets/images/small_tree.png" alt="small_tree"
+            <img src="./assets/images/small_tree.webp" alt="small_tree"
                 class="absolute bottom-[5%] left-[5%] xl:left-[32%] xl:bottom-[7%] pointer-events-none lg:bottom-[5%] md:left-[82%] md:bottom-[4%] second_img">
-            <img src="./assets/images/second_tree_img.png" alt="second_tree_img"
+            <img src="./assets/images/second_tree_img.webp" alt="second_tree_img"
                 class="absolute bottom-[5%] left-[50%] max-lg:left-[75%] pointer-events-none lg:bottom-[3%] lg:right-[2%] xl:left-[53%] xl:bottom-[5%] md:left-[6%] md:bottom-[4%] tree_img">
-            <img src="./assets/images/third_tree_img.png" alt="third_tree_img"
+            <img src="./assets/images/third_tree_img.webp" alt="third_tree_img"
                 class="absolute bottom-[8%] right-[5%] hidden lg:block pointer-events-none lg:bottom-[4%] lg:right-[2%] xl:bottom-[8%] xl:right-[5%]">
-            <img src="./assets/images/second_grass_img.png" alt="second_grass_img"
+            <img src="./assets/images/second_grass_img.webp" alt="second_grass_img"
                 class="absolute bottom-[8%] right-[10%] hidden lg:block pointer-events-none lg:bottom-[4%] lg:right-[9%] xl:bottom-[7%] xl:right-[9.5%]">
         </div>
         </div>
     </section>
     <!----------------road map------------------------>
     <section class="mb-[-3px] relative">
-        <img src="./assets/images/layer3.png" alt="layer3" class="w-full">
-        <img src="./assets/images/roadmap-layer.png" alt="roadmap-layer" class="w-full mt-[-3px]">
+        <img src="./assets/images/layer3.webp" alt="layer3" class="w-full">
+        <img src="./assets/images/roadmap-layer.webp" alt="roadmap-layer" class="w-full mt-[-3px]">
     </section>
     <section class="bg_green min-h-[2200px] pb-44 relative">
         <div class="container">
@@ -417,15 +419,15 @@
                             Phase 1.
                         </p>
                     </div>
-                    <img src="./assets/images/aeroplane_img.png" alt="aeroplane_img" class="absolute left-[56%]  
+                    <img src="./assets/images/aeroplane_img.webp" alt="aeroplane_img" class="absolute left-[56%]  
                     xl:left-[56%] lg:left-[59%] lg:top-[5%] md:left-[57%] md:top-[5%] xl:top-[8%] top-[8%] common-img">
                 </div>
                 <div class="flex">
                     <div>
-                        <img src="./assets/images/roadmap_tree.png" alt="roadmap_tree" class="absolute left-[-21%] bottom-[-17%] z-10
+                        <img src="./assets/images/roadmap_tree.webp" alt="roadmap_tree" class="absolute left-[-21%] bottom-[-17%] z-10
                             2xl:left-[22%] xl:left-[11%] lg:bottom-[60%] lg:left-[4%] md:bottom-[61%] md:left-[9%] xl:bottom-[53%] common-img
                             ">
-                        <img src="./assets/images/roadmap_grass.png" alt="roadmap_grass"
+                        <img src="./assets/images/roadmap_grass.webp" alt="roadmap_grass"
                             class="absolute left-[-3%] h-[84px] bottom-[-7%] z-10
                             2xl:left-[25%] xl:left-[14%] lg:top-[39%] lg:left-[10%] md:left-[13%] md:top-[37%] xl:top-[45%] top-[8%] common-img">
                     </div>
@@ -472,10 +474,10 @@
                         </p>
                     </div>
                     <div>
-                        <img src="./assets/images/roadmap_second_tree.png" alt="roadmap_tree" class="absolute right-[-99%] z-10 top-[0%]
+                        <img src="./assets/images/roadmap_second_tree.webp" alt="roadmap_tree" class="absolute right-[-99%] z-10 top-[0%]
                             2xl:right-[23%] xl:right-[17%] lg:top-[42%] lg:right-[4%] md:right-[8%] md:top-[40%] xl:top-[51%] common-img
                             ">
-                        <img src="./assets/images/roadmap-diano.png" alt="roadmap_grass"
+                        <img src="./assets/images/roadmap-diano.webp" alt="roadmap_grass"
                             class="absolute right-[-119%] h-[142px] bottom-[16%] z-10
                              2xl:right-[27%] xl:right-[22%] lg:bottom-[41%] lg:right-[10%] md:right-[16%] md:bottom-[44%] xl:bottom-[32%] common-img">
                     </div>
@@ -500,14 +502,14 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./assets/images/roadmap_second_grass.png" alt="grass"
+                    <img src="./assets/images/roadmap_second_grass.webp" alt="grass"
                         class="absolute left-[40%] z-10 bottom-[5%] pointer-events-none 2xl:left-[40%] 2xl:bottom-[5%] xl:left-[35%] xl:bottom-[5%] lg:left-[35%] lg:bottom-[17%] md:left-[39%] md:bottom-[24%] common-img">
                 </div>
                 <div>
-                    <img src="assets/images/roadmap_line.png" alt="roadmap" class="absolute xl:top-[17%] 2xl:left-[27%] xl:left-[17%] pointer-events-none lg:top-[14%] lg:left-[13%] md:top-[14%] md:left-[17%] top-[12%] left-[8%]
+                    <img src="assets/images/roadmap_line.webp" alt="roadmap" class="absolute xl:top-[17%] 2xl:left-[27%] xl:left-[17%] pointer-events-none lg:top-[14%] lg:left-[13%] md:top-[14%] md:left-[17%] top-[12%] left-[8%]
                     xl:max-w-[998px] max-w-[878px] lg:max-w-[878px] md:max-w-[778px] pb-32 common-img">
                 </div>
-                <div class=" roadmap absolute max-sm:left-[15%] h-[724px] left-32 top-[7%] bottom-[7%] w-3 border-l-[4px] border-dashed
+                <div class="roadmap absolute max-sm:left-[15%] h-[724px] left-32 top-[7%] bottom-[7%] w-3 border-l-[4px] border-dashed
                                 border-[#0a4740]  "></div>
             </div>
         </div>
