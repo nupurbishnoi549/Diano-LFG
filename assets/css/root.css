@@ -30,19 +30,19 @@
     font-size: var(--font-base);
 }
 
-.fs-md {
+.font-md {
     font-size: var(--font-md);
 }
 
-.fs-lg {
+.font-lg {
     font-size: var(--font-lg);
 }
 
-.fs-xl {
+.font-xl {
     font-size: var(--font-xl);
 }
 
-.fs-2xl {
+.font-2xl {
     font-size: var(--font-2xl);
 }
 
@@ -102,7 +102,6 @@
 .bg-green {
     background: var(--green);
 }
-
 @media(max-width:1200px) {
     :root {
         --font-base: 14px;
