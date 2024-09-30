@@ -13,8 +13,8 @@
     --font-base: 20px;
     --font-md: 24px;
     --font-lg: 32px;
-    --font-2lg: 64px;
-    --font-xl: 200px;
+    --font-xl: 64px;
+    --font-2xl: 200px;
     --white: #FFFFFF;
     --yellow: #FBA11D;
     --sky-blue: #23AAAC;
@@ -30,20 +30,20 @@
     font-size: var(--font-base);
 }
 
-.fs_md {
+.fs-md {
     font-size: var(--font-md);
 }
 
-.fs_lg {
+.fs-lg {
     font-size: var(--font-lg);
 }
 
-.fs_2lg {
-    font-size: var(--font-2lg);
+.fs-xl {
+    font-size: var(--font-xl);
 }
 
-.fs_xl {
-    font-size: var(--font-xl);
+.fs-2xl {
+    font-size: var(--font-2xl);
 }
 
 /*----------------color------------------*/
@@ -51,11 +51,11 @@
     color: var(--white);
 }
 
-.text_yellow {
+.text-yellow {
     color: var(--yellow);
 }
 
-.bg_yellow {
+.bg-yellow {
     background: var(--yellow);
 }
 
@@ -63,39 +63,43 @@
     color: var(--sky-blue);
 }
 
-.text_orange {
+.text-orange {
     color: var(--orange);
 }
 
-.bg_orange {
+.bg-orange {
     background: var(--orange);
 }
 
-.bg_sky_blue {
+.bg-sky-blue {
     background: var(--sky-blue);
 }
 
-.text_pink {
+.text-sky-blue {
+    color: var(--sky-blue);
+}
+
+.text-pink {
     color: var(--pink);
 }
 
-.text_light_green {
+.text-light-green {
     color: var(--light-green);
 }
 
-.bg_pink {
+.bg-pink {
     background: var(--pink);
 }
 
-.bg_light_green {
+.bg-light-green {
     background: var(--light-green);
 }
 
-.bg_dark_green {
+.bg-dark-green {
     background: var(--dark-green);
 }
 
-.bg_green {
+.bg-green {
     background: var(--green);
 }
 
@@ -104,8 +108,8 @@
         --font-base: 14px;
         --font-md: 16px;
         --font-lg: 24px;
-        --font-2lg: 40px;
-        --font-xl: 100px;
+        --font-xl: 40px;
+        --font-2xl: 100px;
     }
 }
 
@@ -114,18 +118,18 @@
         --font-base: 14px;
         --font-md: 16px;
         --font-lg: 20px;
-        --font-2lg: 40px;
-        --font-xl: 150px;
+        --font-xl: 40px;
+        --font-2xl: 150px;
     }
 }
 
-@media(max-width:576px) {
+@media(max-width:768px) {
     :root {
         --font-base: 14px;
         --font-md: 16px;
         --font-lg: 18px;
-        --font-2lg: 40px;
-        --font-xl: 100px;
+        --font-xl: 40px;
+        --font-2xl: 120px;
     }
 }
 
@@ -134,7 +138,7 @@
         --font-base: 14px;
         --font-md: 16px;
         --font-lg: 18px;
-        --font-2lg: 40px;
-        --font-xl: 80px;
+        --font-xl: 40px;
+        --font-2xl: 80px;
     }
 }
