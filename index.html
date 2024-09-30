@@ -159,6 +159,10 @@
             .roadmap-sky-blue-number {
                 top: 81% !important;
             }
+
+            .tokenomics-height {
+                min-height: 1200px !important;
+            }
         }
 
         @media(max-width:475.98px) {
@@ -205,6 +209,10 @@
 
             .yellow-dot {
                 left: 22%;
+            }
+
+            .tokenomics-height {
+                min-height: 1200px !important;
             }
 
             .sky-blue-dot {
@@ -272,13 +280,16 @@
 </head>
 
 <body>
-    <section class="bg_dark_green relative min-h-[1300px]">
+    <section
+        class="bg_dark_green relative min-h-[1100px] md:min-h-[900px] 2xl:min-h-[1300px] xl:min-h-[1300px] lg:min-h-[1300px]">
         <img src="./assets/images/bg-layer.webp" alt="bg_layer" class="w-full">
         <div class=" w-full justify-center flex items-center flex-col">
             <div class="absolute right-0 top-[19%] hidden xl:block ">
                 <img src="./assets/images/layer-1.webp" alt="layer_1">
             </div>
-            <h2 class="fs_2lg text-center font-normal leading-tight font_Chewy text_white mb-20">Tokenomics</h2>
+            <h2
+                class="fs_2lg text-center font-normal leading-tight font_Chewy text_white mb-8 lg:mb-36 xl:mb-36 md:mb-16">
+                Tokenomics</h2>
             <div class="relative flex items-center flex-col sm:left-0 left-[-6%] parent-box">
                 <img src="./assets/images/dino-img.webp" alt="dino_img"
                     class="jump-effect lg:max-w-[133px] pointer-events-none absolute bottom-[1%] sm:left-[30%] left-[37%] max-w-[100px]">
@@ -345,7 +356,7 @@
                         Liquidity lock<br> for 1 year</p>
                 </div>
             </div>
-            <div class="md:hidden block">
+            <div class="md:hidden block mt-8">
                 <div class="flex">
                     <span
                         class="h-4 w-4 absolute sm:right-[58%] sm:top-[46.4%] right-[70%] top-[46.4%] rounded-full bg_yellow yellow-dot"></span>
